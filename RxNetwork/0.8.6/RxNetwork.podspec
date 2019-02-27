@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/Pircate/RxNetwork.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.requires_arc          = true
-  s.swift_version         = '4.0'
+  s.swift_version         = '4.2'
   s.default_subspec       = 'Core'
   
   s.subspec 'Core' do |ss|
